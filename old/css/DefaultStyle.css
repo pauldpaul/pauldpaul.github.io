@@ -1,0 +1,48 @@
+﻿body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right:100px;
+    
+
+}
+
+.navbar {
+    margin-bottom: 5px;
+    background-color: white;
+    border-color: white;
+}
+
+.navbar-default {
+    font-weight: bold;
+}
+
+    .navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus {
+        background-color: #FF6600;
+    }
+
+      
+
+    .navbar-default .navbar-brand {
+        color: #FF6600;
+        /*font-size: 30px;*/
+        /*font-weight: bold;*/
+    }
+
+.col-centered {
+    display:table-cell;
+    vertical-align:middle;
+    float:none;
+}
+
+
+.fade {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+    .fade:hover {
+        opacity: 0.5;
+    }
